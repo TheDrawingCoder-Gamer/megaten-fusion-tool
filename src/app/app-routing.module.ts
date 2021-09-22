@@ -117,6 +117,11 @@ const appRoutes: Routes = [
     data: { appName: 'Persona 4 Golden' }
   },
   {
+    path: 'p4gm',
+    loadChildren: () => import('./p4/compendium.module').then(m => m.CompendiumModule),
+    data: { appName: 'Persona 4 Golden' }
+  },
+  {
     path: 'pq',
     loadChildren: () => import('./pq/compendium.module').then(m => m.CompendiumModule),
     data: { appName: 'Persona Q: Shadow of the Labyrinth' }

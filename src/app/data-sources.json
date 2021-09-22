@@ -199,6 +199,12 @@
     ]
   },
   {
+    "game": "Persona 4 Golden Modded",
+    "menu": true,
+    "tool": "p4gm",
+    "srcs": [   ]
+  },
+  {
     "game": "Persona 5",
     "menu": true,
     "tool": "p5",

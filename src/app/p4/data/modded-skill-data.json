@@ -1,0 +1,197 @@
+{
+    "Miracle Punch": {
+        "damage": "Light",
+        "element": "phys",
+        "effect": "55% Critical Rate",
+        "power": 80,
+        "cost": 8
+    },
+    "Memory Blow": {
+        "damage": "Light",
+        "element": "phys",
+        "effect": "25% chance of silence",
+        "power": 75,
+        "target": "All Foes",
+        "cost": 12
+    },
+    "Brain Buster": {
+        "damage": "Heavy",
+        "element": "phys",
+        "effect": "25% chance of exhaustion",
+        "power": 120,
+        "target": "All Foes",
+        "cost": 21
+    },
+    "Gigantomachia": {
+        "damage": "Severe",
+        "element": "phys",
+        "power": 350,
+        "target": "All Foes",
+        "cost": 25
+    },
+    "Bloodbath": {
+        "damage": "Heavy",
+        "element": "phys",
+        "effect": "25% chance of fear",
+        "power": 120,
+        "target": "All Foes",
+        "cost": 21
+    },
+    "Prominence": {
+        "damage": "Severe",
+        "element": "fire",
+        "power": 180,
+        "target": "All Foes",
+        "cost": 1052
+    },
+    "Cocytus Pain": {
+        "damage": "Severe",
+        "element": "ice",
+        "power": 180,
+        "target": "All Foes",
+        "cost": 1052
+    },
+    "Jihad": {
+        "damage": "Severe",
+        "element": "elec",
+        "power": 180,
+        "target": "All Foes",
+        "cost": 1052
+    },
+    "Divine Vacuum": {
+        "damage": "Severe",
+        "element": "wind",
+        "power": 180,
+        "target": "All Foes",
+        "cost": 1052
+    },
+    "Kouha": {
+        "damage": "Light",
+        "element": "light",
+        "power": 40,
+        "cost": 104
+    },
+    "Kouga": {
+        "damage": "Medium",
+        "element": "light",
+        "power": 100,
+        "cost": 108
+    },
+    "Kougaon": {
+        "damage": "Heavy",
+        "element": "light",
+        "power": 160,
+        "cost": 1012
+    },
+    "Makouha": {
+        "damage": "Light",
+        "element": "light",
+        "power": 40,
+        "cost": 1010,
+        "target": "All Foes"
+    },
+    "Makouga": {
+        "damage": "Medium",
+        "element": "light",
+        "power": 100,
+        "cost": 1016,
+        "target": "All Foes"
+    },
+    "Makougaon": {
+        "damage": "Heavy",
+        "element": "light",
+        "power": 160,
+        "cost": 1022,
+        "target": "All Foes"
+    },
+    "Shining Arrows": {
+        "damage": "Light",
+        "element": "light",
+        "power": 15,
+        "effect": "x4-8 hits",
+        "target": "All Foes",
+        "cost": 1022
+    },
+    "Eiha": {
+        "damage": "Light",
+        "element": "dark",
+        "power": 40,
+        "cost": 104
+    },
+    "Eiga": {
+        "damage": "Medium",
+        "element": "dark",
+        "power": 100,
+        "cost": 108
+    },
+    "Eigaon": {
+        "damage": "Heavy",
+        "element": "dark",
+        "power": 160,
+        "cost": 1012
+    },
+    "Maeiha": {
+        "damage": "Light",
+        "element": "dark",
+        "power": 40,
+        "cost": 1010,
+        "target": "All Foes"
+    },
+    "Maeiga": {
+        "damage": "Medium",
+        "element": "dark",
+        "power": 100,
+        "cost": 1016,
+        "target": "All Foes"
+    },
+    "Maeigaon": {
+        "damage": "Heavy",
+        "element": "dark",
+        "power": 160,
+        "cost": 1022,
+        "target": "All Foes"
+    },
+    "Magastu Mandala": {
+        "damage": "Heavy",
+        "element": "dark",
+        "power": 160,
+        "cost": 1030,
+        "target": "All Foes",
+        "effect": "50% chance of Panic/Fear/Enervation"
+    },
+    "Amrita Drop": {
+        "effect" : "Cures all ailments",
+        "element": "recovery",
+        "cost": 106,
+        "target": "One Ally"
+    },
+    "Oratorio": {
+        "effect": "Fully restore HP, negate debuffs",
+        "element": "recovery",
+        "cost": 1038,
+        "target": "All Allies"
+    },
+    "Cadenza": {
+        "effect": "Restore 50% HP, increase hit/evasion rate",
+        "element": "recovery",
+        "cost": 1024,
+        "target": "All Allies"
+    },
+    "Door of Hades": {
+        "effect": "60% chance of instakill",
+        "element": "almighty",
+        "damage": "Heavy",
+        "power": 160,
+        "cost": 1032,
+        "target": "All Foes"
+    },
+    "Myriad Truths": {
+        "effect": "x3 hits",
+        "damage": "Heavy",
+        "target": "All Foes",
+        "power": 180,
+        "cost": 1040,
+        "element": "almighty"
+    }
+    
+}
