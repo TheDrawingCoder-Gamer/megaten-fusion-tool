@@ -117,6 +117,7 @@ export class Compendium implements ICompendium {
     for (const [name, json] of Object.entries(this.compConfig.specialRecipes[this.gameAbbr])) {
       const ingreds = <string[]>json;
       specials[name] = ingreds;
+      console.log(name);
       demons[name].fusion = 'special';
 
       if (ingreds.length === 2) {
@@ -137,6 +138,7 @@ export class Compendium implements ICompendium {
       }
 
       for (const [skill, level] of Object.entries(demon.skills)) {
+        console.log(skill);
         skills[skill].learnedBy.push({ demon: name, level });
       }
     }

@@ -119,7 +119,7 @@ const appRoutes: Routes = [
   {
     path: 'p4gm',
     loadChildren: () => import('./p4/compendium.module').then(m => m.CompendiumModule),
-    data: { appName: 'Persona 4 Golden' }
+    data: { appName: 'Persona 4 Golden Modded' }
   },
   {
     path: 'pq',

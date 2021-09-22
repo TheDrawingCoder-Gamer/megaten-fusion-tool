@@ -26,6 +26,7 @@ import GOLDEN_VANILLA_DEMON_JSON from './data/golden-vanilla-demon.json';
 import VANILLA_DEMON_JSON from './data/vanilla-demon.json';
 import MODDED_DEMON_DATA from './data/modded-demon-data.json';
 import MODDED_SKILL_DATA from './data/modded-skill-data.json';
+import MODDED_SPECIAL_RECIPES from './data/modded-special-recipes.json';
 function getEnumOrder(target: string[]): { [key: string]: number } {
   const result = {};
   for (let i = 0; i < target.length; i++) {
@@ -80,7 +81,7 @@ export const P4_COMPENDIUM_CONFIG: CompendiumConfig = {
   enemyData: { p4: [ENEMY_DATA_JSON], p4g: [ENEMY_DATA_JSON, GOLDEN_ENEMY_DATA_JSON], p4gm: [ENEMY_DATA_JSON, GOLDEN_ENEMY_DATA_JSON]},
 
   normalTable: { p4: FUSION_CHART_JSON, p4g: GOLDEN_FUSION_CHART_JSON, p4gm: GOLDEN_FUSION_CHART_JSON},
-  specialRecipes: { p4: SPECIAL_RECIPES_JSON, p4g: SPECIAL_RECIPES_JSON, p4gm: SPECIAL_RECIPES_JSON},
+  specialRecipes: { p4: SPECIAL_RECIPES_JSON, p4g: SPECIAL_RECIPES_JSON, p4gm: MODDED_SPECIAL_RECIPES},
   hasSkillCards: { p4: false, p4g: true, p4gm: true}
 };
 

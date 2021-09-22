@@ -39,9 +39,9 @@
         "skills": {
             "Vorpal Blade": 0,
             "Invigorate 3": 0,
-            "Repel Phys": 0,
+            "Repel Physical": 0,
             "Primal Force": 89,
-            "Absorb Phys": 91,
+            "Absorb Physical": 91,
             "Fast Heal": 92,
             "Arms Master": 93,
             "Gigantomachia": 95
@@ -191,7 +191,7 @@
             "Regenerate 3": 84,
             "Enduring Soul": 87,
             "Invigorate 3": 90,
-            "Absorb Phys": 93,
+            "Absorb Physical": 93,
             "Salvation": 96
         },
         "stats": [50,50,50,50,50]
@@ -770,7 +770,7 @@
             "Wind Amp": 70,
             "Wind Boost": 0,
             "Mazionga": 0,
-            "Fire Wall": 66,
+            "Red Wall": 66,
             "Elec Break": 72,
             "Mediarahan": 75,
             "Elec Amp": 78,
@@ -846,7 +846,7 @@
       "Maeigaon": 89,
       "Evil Smile": 91,
       "Repel Ice": 94,
-      "Hell's Judgement": 97
+      "Hell's Judgment": 97
     },
     "stats": [51, 57, 48, 50, 44]
   },
@@ -1950,7 +1950,7 @@
       "Makougaon": 93,
       "Hama Boost": 94,
       "Mind Charge": 96,
-      "God's Judgement": 98
+      "God's Judgment": 98
     },
     "stats": [54, 55, 53, 46, 48]
   },
@@ -1969,7 +1969,7 @@
       "Vorpal Blade": 0,
       "Mabufudyne": 82,
       "Brave Blade": 85,
-      "God's Judgement": 88,
+      "God's Judgment": 88,
       "Debilitate": 93
     },
     "stats": [45, 42, 43, 48, 45]
@@ -3430,7 +3430,7 @@
       "Null Fire": 48,
       "Red Wall": 0,
       "Hysterical Slap": 45,
-      "Null Panic": 52,
+      "Null Confuse": 52,
       "Green Wall": 54,
       "Amrita": 56,
       "Resist Ice": 59 
