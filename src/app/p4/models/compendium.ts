@@ -113,20 +113,22 @@ export class Compendium implements ICompendium {
         }
       }
     }
+    for (const specialRecipeJson of this.compConfig.specialRecipes[this.gameAbbr]) {
+      for (const [name, json] of Object.entries(specialRecipeJson)) {
+        const ingreds = <string[]>json;
+        specials[name] = ingreds;
+        console.log(name);
+        demons[name].fusion = 'special';
 
-    for (const [name, json] of Object.entries(this.compConfig.specialRecipes[this.gameAbbr])) {
-      const ingreds = <string[]>json;
-      specials[name] = ingreds;
-      console.log(name);
-      demons[name].fusion = 'special';
-
-      if (ingreds.length === 2) {
-        for (const ingred of ingreds) {
-          if (!invertedSpecials[ingred]) { invertedSpecials[ingred] = []; }
-          invertedSpecials[ingred].push(name);
+        if (ingreds.length === 2) {
+          for (const ingred of ingreds) {
+            if (!invertedSpecials[ingred]) { invertedSpecials[ingred] = []; }
+            invertedSpecials[ingred].push(name);
+          }
         }
       }
     }
+    
 
     for (const race of this.compConfig.races) {
       inverses[race] = {};

@@ -27,6 +27,8 @@ import VANILLA_DEMON_JSON from './data/vanilla-demon.json';
 import MODDED_DEMON_DATA from './data/modded-demon-data.json';
 import MODDED_SKILL_DATA from './data/modded-skill-data.json';
 import MODDED_SPECIAL_RECIPES from './data/modded-special-recipes.json';
+import TRICKSTER_DEMON_DATA from './data/trickster-demon-data.json';
+import TRICKER_SPECIAL_RECIPES from './data/trickster-special-fusions.json';
 function getEnumOrder(target: string[]): { [key: string]: number } {
   const result = {};
   for (let i = 0; i < target.length; i++) {
@@ -60,7 +62,7 @@ for (const entry of Object.values(GOLDEN_PARTY_DATA_JSON)) {
 
 export const P4_COMPENDIUM_CONFIG: CompendiumConfig = {
   appTitle: 'Persona 4',
-  gameTitles: { p4: 'Persona 4', p4g: 'Persona 4 Golden', p4gm: 'Persona 4 Golden Modded'},
+  gameTitles: { p4: 'Persona 4', p4g: 'Persona 4 Golden', p4gm: 'Persona 4 Golden Modded', p4r: 'Persona 4 Golden P5 Model Backport'},
   appCssClasses: ['p4'],
 
   races,
@@ -76,13 +78,13 @@ export const P4_COMPENDIUM_CONFIG: CompendiumConfig = {
   enemyStats: ['HP', 'MP'],
   enemyResists: COMP_CONFIG_JSON.resistElems.concat(['almighty']),
 
-  demonData: { p4: [DEMON_DATA_JSON, VANILLA_DEMON_JSON, PARTY_DATA_JSON], p4g: [DEMON_DATA_JSON, VANILLA_DEMON_JSON, GOLDEN_DEMON_DATA_JSON, GOLDEN_PARTY_DATA_JSON, GOLDEN_VANILLA_DEMON_JSON], p4gm: [DEMON_DATA_JSON, GOLDEN_DEMON_DATA_JSON, GOLDEN_PARTY_DATA_JSON, MODDED_DEMON_DATA]},
-  skillData: { p4: [SKILL_DATA_JSON, GOLDEN_SKILL_DATA_JSON], p4g: [SKILL_DATA_JSON, GOLDEN_SKILL_DATA_JSON], p4gm: [SKILL_DATA_JSON, GOLDEN_SKILL_DATA_JSON, MODDED_SKILL_DATA] },
-  enemyData: { p4: [ENEMY_DATA_JSON], p4g: [ENEMY_DATA_JSON, GOLDEN_ENEMY_DATA_JSON], p4gm: [ENEMY_DATA_JSON, GOLDEN_ENEMY_DATA_JSON]},
+  demonData: { p4: [DEMON_DATA_JSON, VANILLA_DEMON_JSON, PARTY_DATA_JSON], p4g: [DEMON_DATA_JSON, VANILLA_DEMON_JSON, GOLDEN_DEMON_DATA_JSON, GOLDEN_PARTY_DATA_JSON, GOLDEN_VANILLA_DEMON_JSON], p4gm: [DEMON_DATA_JSON, GOLDEN_DEMON_DATA_JSON, GOLDEN_PARTY_DATA_JSON, MODDED_DEMON_DATA], p4r: [DEMON_DATA_JSON, GOLDEN_DEMON_DATA_JSON, GOLDEN_PARTY_DATA_JSON, MODDED_DEMON_DATA, TRICKSTER_DEMON_DATA]},
+  skillData: { p4: [SKILL_DATA_JSON, GOLDEN_SKILL_DATA_JSON], p4g: [SKILL_DATA_JSON, GOLDEN_SKILL_DATA_JSON], p4gm: [SKILL_DATA_JSON, GOLDEN_SKILL_DATA_JSON, MODDED_SKILL_DATA], p4r: [SKILL_DATA_JSON, GOLDEN_SKILL_DATA_JSON, MODDED_SKILL_DATA]},
+  enemyData: { p4: [ENEMY_DATA_JSON], p4g: [ENEMY_DATA_JSON, GOLDEN_ENEMY_DATA_JSON], p4gm: [ENEMY_DATA_JSON, GOLDEN_ENEMY_DATA_JSON], p4r: [ENEMY_DATA_JSON, GOLDEN_ENEMY_DATA_JSON]},
 
-  normalTable: { p4: FUSION_CHART_JSON, p4g: GOLDEN_FUSION_CHART_JSON, p4gm: GOLDEN_FUSION_CHART_JSON},
-  specialRecipes: { p4: SPECIAL_RECIPES_JSON, p4g: SPECIAL_RECIPES_JSON, p4gm: MODDED_SPECIAL_RECIPES},
-  hasSkillCards: { p4: false, p4g: true, p4gm: true}
+  normalTable: { p4: FUSION_CHART_JSON, p4g: GOLDEN_FUSION_CHART_JSON, p4gm: GOLDEN_FUSION_CHART_JSON, p4r: GOLDEN_FUSION_CHART_JSON},
+  specialRecipes: { p4: [SPECIAL_RECIPES_JSON], p4g: [SPECIAL_RECIPES_JSON], p4gm: [SPECIAL_RECIPES_JSON, MODDED_SPECIAL_RECIPES], p4r: [SPECIAL_RECIPES_JSON, MODDED_SPECIAL_RECIPES, TRICKER_SPECIAL_RECIPES]},
+  hasSkillCards: { p4: false, p4g: true, p4gm: true, p4r: true}
 };
 
 @NgModule({

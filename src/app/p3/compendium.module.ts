@@ -134,10 +134,10 @@ export const P3_COMPENDIUM_CONFIG: CompendiumConfig = {
     p3p: FES_FUSION_CHART_JSON
   },
   specialRecipes: {
-    p3: VAN_SPECIAL_RECIPES_JSON,
-    p3fes: FES_SPECIAL_RECIPES_JSON,
-    p3aeg: PAIR_SPECIAL_RECIPES_JSON,
-    p3p: FES_SPECIAL_RECIPES_JSON
+    p3: [VAN_SPECIAL_RECIPES_JSON],
+    p3fes: [FES_SPECIAL_RECIPES_JSON],
+    p3aeg: [PAIR_SPECIAL_RECIPES_JSON],
+    p3p: [FES_SPECIAL_RECIPES_JSON]
   },
   hasSkillCards: {
     p3: false,

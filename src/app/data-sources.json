@@ -205,6 +205,12 @@
     "srcs": [   ]
   },
   {
+    "game": "Persona 4 Golden P5 Model Backport",
+    "menu": true,
+    "tool": "p4r",
+    "srcs": []
+  },
+  {
     "game": "Persona 5",
     "menu": true,
     "tool": "p5",

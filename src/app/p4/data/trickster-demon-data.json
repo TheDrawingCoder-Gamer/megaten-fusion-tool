@@ -1,0 +1,44 @@
+{
+    "Arsene": {
+        "resists": "--w--wn",
+        "race": "Fool",
+        "lvl": 10,
+        "stats": [13,12,14,15,10],
+        "inherits": "dark",
+        "skills": {
+            "Eiha": 0,
+            "Kill Rush": 0,
+            "Maeiha": 11,
+            "Sukunda": 12,
+            "Apt Pupil": 13
+        }
+        
+    },
+    "Satanael": {
+        "resists": "sssssss",
+        "race": "Fool",
+        "lvl": 95,
+        "inherits": "dark",
+        "stats": [63,60,57,56,56],
+        "skills": {
+            "Maeigaon": 0,
+            "Megidolaon": 0,
+            "Enduring Soul": 96,
+            "Gigantomachia": 98
+        }
+    },
+    "Raoul": {
+        "resists": "-----wn",
+        "stats": [47,49,43,54,42],
+        "race": "Fool",
+        "lvl": 76,
+        "inherits": "dark",
+        "skills": {
+            "Ali Dance": 0,
+            "Eigaon": 0,
+            "Maeigaon": 0,
+            "Heat Riser": 77,
+            "Mind Charge": 78
+        }
+    }
+}

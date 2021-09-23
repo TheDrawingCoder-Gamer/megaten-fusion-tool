@@ -29,6 +29,6 @@ export interface CompendiumConfig extends BaseComp {
   enemyData: { [game: string]: any[] };
 
   normalTable: { [game: string]: any };
-  specialRecipes: { [game: string]: any };
+  specialRecipes: { [game: string]: any[] };
   hasSkillCards: { [game: string]: boolean };
 }
